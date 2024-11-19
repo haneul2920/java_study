@@ -76,7 +76,7 @@ public class 문제 {
 		double height = 1.77;
 		double bmi = 0;
 		bmi = weight / (height * height);
-		System.out.println("BMI : " + bmi);
+		System.out.printf("BMI : %.2f\n", bmi);
 		
 		//문제 9.
 //		int 대기번호 = 1;
