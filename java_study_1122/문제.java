@@ -149,19 +149,17 @@ public class 문제 {
 //		이 되어 총 8번 만에 1이 됩니다. 위 작업을 몇 번이나 반복해야 출력하시오.
 //		int n = 6; //주어진 수
 		
-//		int w = 6;
-//		int count = 0;
-//		while (true){
-//			if (w % 2 == 0) {
-//				int e = w / 2 ;
-//				if(e % 2 != 0) {
-//					int r = e
-//					if()
-//				}
-//			}
-//			count++;
-//		}
-//		System.out.println(count); 문제 풀이중
+		int w = 6;
+		int count = 0;
+		while (w != 1){
+			if (w % 2 == 0) {
+				w = w / 2 ;					
+			}else {
+				 w = (w * 3) + 1;				
+			}
+				count++;
+			}		
+		System.out.println(count);
 
 	}
 
