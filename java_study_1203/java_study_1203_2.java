@@ -133,11 +133,11 @@ public class java_study_1203_2 {
 		int k = scan.nextInt();		
 		int 양꼬치 = 12000;
 		int 음료수 = 2000;
-		int total = ((q*양꼬치) + (k*음료수));
-		if(q >= 10) {
-			total -= 음료수;
-		}
-		
+		int total = (q*양꼬치) + (k*음료수);		
+		int 무료음료수 = q / 10;
+        int 할인금액 = 무료음료수 * 음료수;
+        total -= 할인금액;
+        
 		System.out.println("총 " + total + "원 입니다.");
 		
 	}
